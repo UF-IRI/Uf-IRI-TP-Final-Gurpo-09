@@ -8,6 +8,7 @@ env:
 
 jobs:
   job1:
+    name: MacOS Build
     build:
       runs-on: macos-latest
 
@@ -19,9 +20,10 @@ jobs:
         run: cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}}
 
   job2:
+    name: MacOS Base Test 1
     build:
       runs-on: macos-latest
-      needs: [ job1 ]
+      needs: job1
       steps:
       - uses: actions/checkout@v3
       - name: Test
