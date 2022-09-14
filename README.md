@@ -3,7 +3,6 @@
     Consigna del TP Final
 ### Descripción
     Descripción del proyecto
-
 ### Integrantes
 - 
 - 
