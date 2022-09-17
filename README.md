@@ -4,10 +4,10 @@
 ### Descripción
     Descripción del proyecto
 ### Integrantes
-- 
-- 
-- 
-- 
+- Integrante 1
+- Integrante 2
+- Integrante 3
+- Integrante 4
 ### Compilaciones
 [![MacOS](https://github.com/UF-IRI/Plantilla_CMake_CPP/actions/workflows/macos.yml/badge.svg)](https://github.com/UF-IRI/Plantilla_CMake_CPP/actions/workflows/macos.yml)
 [![Ubuntu](https://github.com/UF-IRI/Plantilla_CMake_CPP/actions/workflows/ubuntu.yml/badge.svg)](https://github.com/UF-IRI/Plantilla_CMake_CPP/actions/workflows/ubuntu.yml)
