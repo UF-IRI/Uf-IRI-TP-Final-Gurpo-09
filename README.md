@@ -9,9 +9,7 @@
 - Integrante 3
 - Integrante 4
 ### Compilaciones
-[![MacOS](https://github.com/UF-IRI/Plantilla_CMake_CPP/actions/workflows/macos.yml/badge.svg)](https://github.com/UF-IRI/Plantilla_CMake_CPP/actions/workflows/macos.yml)
 [![Ubuntu](https://github.com/UF-IRI/Plantilla_CMake_CPP/actions/workflows/ubuntu.yml/badge.svg)](https://github.com/UF-IRI/Plantilla_CMake_CPP/actions/workflows/ubuntu.yml)
-[![Windows](https://github.com/UF-IRI/Plantilla_CMake_CPP/actions/workflows/windows.yml/badge.svg)](https://github.com/UF-IRI/Plantilla_CMake_CPP/actions/workflows/windows.yml)
 ### Unit Tests
 [![Test 1](https://github.com/UF-IRI/TP_Final/actions/workflows/test_1.yml/badge.svg)](https://github.com/UF-IRI/TP_Final/actions/workflows/test_1.yml)
 [![Test 2](https://github.com/UF-IRI/TP_Final/actions/workflows/test_2.yml/badge.svg)](https://github.com/UF-IRI/TP_Final/actions/workflows/test_2.yml)
