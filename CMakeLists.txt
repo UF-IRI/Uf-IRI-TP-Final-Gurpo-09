@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 enable_testing()
 
+add_subdirectory(iri)
 add_subdirectory(libreria)
 add_subdirectory(main)
 add_subdirectory(unit-test)

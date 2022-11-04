@@ -1,12 +1,9 @@
-#include <cstdlib>
+#include "iri.hpp"
 #include <iostream>
 
-#include "example.h"
+int main() {
 
-int main(int argc, char** argv)
-{
-    foobar::Example example{};
-    std::cout << "Example.getValue() => " << example.getValue() << std::endl;
+    std::cout << "Hello World TP_Final";
 
     return EXIT_SUCCESS;
 }
