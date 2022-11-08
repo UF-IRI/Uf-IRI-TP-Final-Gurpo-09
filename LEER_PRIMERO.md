@@ -1,6 +1,6 @@
 # ABC de TP Final
 ---
-### - Paso 1:<br>Hacer fork del repositorio<br><img src = "https://bit.ly/3zOA427" >
+### - Paso 1:<br>Hacer fork del repositorio<br><img src = "https://i.imgur.com/9asAAjl.png" >
 
 ### - Paso 2:<br>Seleccionar que el dueño es UF-LP2<br><img src = "https://i.imgur.com/71PIbY8.png" >
 
