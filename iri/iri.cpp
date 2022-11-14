@@ -10,27 +10,35 @@ std::string FOLDER_PATH = "data_files\\input\\";
 // Expresiones Regulares (REGEX)
 
     // Expresion regular para numeros
-    // Cantidad de valores 1
+    // Devuelve 1 Grupo
+    // "1235"
     std::string reg_numero = "(\\d+)";
 
     // Expresion regular para palabras
-    // Cantidad de valores 1 (devuelve un string)
+    // Devuelve 1 Grupo
+    // ie:
+    // "Hello World"
     std::string reg_palabra = "(\\w|\\s{1,})";
 
     // Expresion regular para fechas (dd/mm/yyyy :: dia/mes/año)
-    // Cantidad de valores 4
-    // val 1 = fecha completa
-    // val 2 = dia
-    // val 3 = mes
-    // val 4 = año
+    // Devuelve 4 Grupo
+    // ie:
+    // Grupo 1 >> "09/12/2018"
+    // Grupo 2 >> "09"
+    // Grupo 3 >> "12"
+    // Grupo 4 >> "2018"
     std::string reg_fecha = "(([0-2][0-9]|3[0-1])\\/(0[0-9]|1[0-2])\\/(\\d{4}))";
 
     // Expresion regular para matricula medico
-    // Cantidad de valores 1
+    // Devuelve 1 Grupo
+    // ie:
+    // "12-4546-123"
     std::string reg_matricula_medico = "(\\d+\\-\\d+\\-\\d+)";
 
     // Expresion regular para telefono/celular
-    // Cantidad de valores 1
+    // Devuelve 1 Grupo
+    // ie:
+    
     std::string reg_telefono = "(\\+54\\s\\(\\d+\\)\\s\\d+)";
 
     // Expresion regular para mail
