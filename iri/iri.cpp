@@ -50,5 +50,5 @@ std::string FOLDER_PATH = "data_files\\input\\";
     std::string reg_booleano = "(\\d)";
 
     bool regex_2_bool(std::string regex_value) {
-        return astd::stoi(regex_value) ? true : false;
+        return std::stoi(regex_value) ? true : false;
     }
