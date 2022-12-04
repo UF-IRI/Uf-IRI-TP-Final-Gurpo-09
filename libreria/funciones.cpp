@@ -3,8 +3,7 @@
 #define DiezS 315576000
 
 
-void CargarListaPac(Paciente*& listaPac, int* n)
-{
+void CargarListaPac(Paciente*& listaPac, int* n){
     if (listaPac == nullptr && n==nullptr)
         return;
     fstream fp;
