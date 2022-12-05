@@ -2,8 +2,9 @@
 #include "main_test.cpp"
 
 namespace Casos_Base::tests {
-	TEST(Leer_archivo, lista_paciente)
+	TEST(Casos_Base , Test_Caso1)
 	{
+		//testeamos la funcion de cargar lista de´paciente y al mismo tiempo la duncion de rezise ya que si corre es porque pudo llenar hacer ambas 
 		int n = 0;
 		Paciente* lista_aux = new Paciente[n];
 		Paciente aux;
@@ -26,8 +27,9 @@ namespace Casos_Base::tests {
 		delete[] lista_aux;
 	}
 
-	TEST(Leer_archivo, lista_consulta)
+	TEST(Casos_Base, Test_Caso2)
 	{
+		//testeamos la funcion de cargar lista de Consulta y al mismo tiempo la duncion de rezise ya que si corre es porque pudo llenar hacer ambas 
 		int n = 0;
 		Consulta* lista_aux = new Consulta[n];
 		Consulta aux;
@@ -65,8 +67,9 @@ namespace Casos_Base::tests {
 		delete[] lista_aux;
 	}
 
-	TEST(lerr_archivo, lista_contacto)
+	TEST(Casos_Base, Test_Caso3)
 	{
+		//testeamos la funcion de cargar lista de Contacto y al mismo tiempo la funcion de rezise ya que si corre es porque pudo llenar hacer ambas 
 		int n = 0;
 		Contacto* lista_aux = new Contacto[n];
 		Contacto aux;
@@ -88,8 +91,9 @@ namespace Casos_Base::tests {
 		delete[] lista_aux;
 	}
 
-	TEST(lerr_archivo, lista_medico)
+	TEST(Casos_Base, Test_Caso4)
 	{
+		//testeamos la funcion de cargar lista de Medico y al mismo tiempo la duncion de rezise ya que si corre es porque pudo llenar hacer ambas 
 		int n = 0;
 		Medico* lista_aux = new Medico[n];
 		Medico aux;
