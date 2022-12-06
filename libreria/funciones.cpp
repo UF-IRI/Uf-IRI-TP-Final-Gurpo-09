@@ -321,9 +321,11 @@ time_t ultimaConsulta(unsigned int DNI, UltimaConsulta*& lista, int nconsultas)
     return fecha;
 }
 
-void contactar(Paciente*& lista, int nLista, Contacto*& listaContac, int nContac, Medico*& listaMed, int nMed,
-    Consulta*& listaCon, int nCon)
+void contactar(Paciente*& lista, int nLista, Contacto*& listaContac, int nContac, Medico*& listaMed, int nMed, Consulta*& listaCon, int nCon)
 {
+    if (lista == nullptr &&listaContac==nullptr && listaMed==nullptr && listaCon==nullptr)
+        return;
+
     int i, j, k, l;
     fstream fp;
 
